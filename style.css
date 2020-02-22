@@ -48,8 +48,7 @@ html{
 
 #navbar ul{
     display: flex;
-    font-family: 'Merienda One', cursive;
-    
+    font-family: 'Baloo Bhai', cursive;
 }
 
 #navbar ul li{ 
@@ -96,30 +95,62 @@ html{
     color:white;
     text-align: center;
     font-family: 'Bree Serif', serif;
-
-    
-}
-
-#home p{
-    color:white;
-    text-align: center;
-    font-size: 1.5rem;
-     font-family: 'Fondamento', cursive;
+    text-shadow: 2px 2px 5px rgb(155, 11, 238);
+    font-size: 2.5rem;
 }
 
 #home a{
     color: white;
 }
 
-#home span{
+#home h1 span{
     
     text-shadow: 2px 2px 5px red;
+    font-size: 2.5rem;
 }
 
+/* Site Section */
+#sites{
+    margin: 0px;
+    display: flex;
+    
+}
 
+#sites .site-item{ 
+    border: 2px solid brown;
+    background: #ccdee4;
+    padding: 20px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    
+}
 
+#sites .site-item img{ 
+   height: 160px;
+   width: 220px;
+   margin: auto;
+   display: block;
+}
+
+#sites .site-item a:hover{
+
+    color: rgb(252, 8, 8);
+
+}
+
+#site-section span{
+    text-shadow: 2px 2px 4px white; 
+    color: rgb(255, 10, 23);
+}
 
 /* Services Section */
+
+
 #services{
     margin: 0px;
     display: flex;
@@ -134,39 +165,47 @@ html{
     border-radius: 28px;
     margin-bottom: 10px;
     margin-top: 10px;
-    height: 350px;
+    height: 360px;
     width: 300px;
     justify-content: center;
     
 }
 
 #services .box img{ 
-   height: 160px;
+   height: 100px;
+   width: 100px;
    margin: auto;
    display: block;
 }
 
 #services .box p{
     font-family: 'Bree Serif', serif;
+    color: rgb(78, 3, 68);
+} 
 
-
+#services .box a:hover{
+    color: rgb(252, 8, 8);
 } 
 
 #services .box:hover{
 
-    background-color: rgb(228, 190, 158);
     box-shadow: 5px 5px 5px grey;
 
 }
 
 #services-container span{
-    text-shadow: 2px 2px 4px rgb(236, 62, 9);
+    text-shadow: 2px 2px 4px white; 
+    color: rgb(255, 10, 23);
 }
 
 
 /* Contact Section */
 #contact{
     position: relative;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    
    
 }
 #contact::before{
@@ -213,7 +252,7 @@ footer{
     background: black;
     color: white;
     padding: 09px 20px;
-    font-family: 'Fondamento', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 /* Utility Classes */
@@ -221,6 +260,7 @@ footer{
     font-family: 'Bree Serif', serif;
     font-size: 3.8rem;
     padding: 12px;
+    align-items: center;
     
 }
 
@@ -228,11 +268,18 @@ footer{
     font-family: 'Bree Serif', serif;
     font-size: 2.3rem;
     padding: 12px;
+    align-items: center;
 }
 
 #services-container{
 
     background: url('ab.jpg') no-repeat center center/cover;
+   
+}
+
+#site-section{
+
+    background: url('aab.jpg') no-repeat center center/cover;
    
 }
 
@@ -274,7 +321,6 @@ footer{
     cursor:pointer;
 
 }
-
 
 .btnn:hover{
    
